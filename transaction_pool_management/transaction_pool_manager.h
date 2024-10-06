@@ -16,7 +16,7 @@ public:
     std::vector<EncryptedTransaction> getTransactionBatch(size_t batchSize);
 
     void removeTransaction(const std::string& transactionHash);
-l
+
     size_t getPoolSize() const;
 
 private:
